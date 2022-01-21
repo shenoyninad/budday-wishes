@@ -1,0 +1,23 @@
+.main-container {
+  text-align: center;
+}
+
+.countdown-text, .wish-text{
+  font-size: 400%;
+}
+
+.countdown-div, .wish-div{
+  margin-top: 17%;
+}
+
+.wish-text {
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% { color: rgb(231, 81, 81); }
+  25% {color: rgb(231, 196, 81); }
+  50% { color: rgb(64, 175, 129); }
+  75% {color: rgb(231, 196, 81);}
+  100% { color: rgb(228, 87, 209); }
+}
