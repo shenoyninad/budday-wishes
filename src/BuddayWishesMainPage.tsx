@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 
 function BuddayWishesMainPage() {
-  const [name, setName] = useState("Arushi");
+  const [name, setName] = useState("Meenu");
   const [visible, setVisible] = useState(true);
 
   useEffect(() => {
@@ -10,7 +10,7 @@ function BuddayWishesMainPage() {
     // Update the count down every 1 second
     var x = setInterval(function () {
 
-      var countDownDate = new Date("Feb 2, 2022 00:00:0").getTime();
+      var countDownDate = new Date("Apr 27, 2022 00:00:0").getTime();
       // Get today's date and time
       var now = new Date().getTime();
 
