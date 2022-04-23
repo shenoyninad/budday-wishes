@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(25, 139, 214);
-  color: wheat;
+  background-color: yellow;
+  color: rgb(25, 139, 214);
   font-family: 'Mochiy Pop P One', sans-serif;
   font-family: 'Open Sans', sans-serif;
 }

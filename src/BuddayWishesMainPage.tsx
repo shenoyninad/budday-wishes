@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import useWindowSize from './hooks/useWindowSize';
+import Confetti from 'react-confetti';
+import image from './image-meenakshi.jpeg';
 
 function BuddayWishesMainPage() {
-  const [name, setName] = useState("Meenu");
+  const name = "Meenu";
+  const { width, height } = useWindowSize();
   const [visible, setVisible] = useState(true);
 
   useEffect(() => {
-    document.title = `Happy birthday ${name}`
+    document.title = `Happy birthday ${name}!`
     // Update the count down every 1 second
     var x = setInterval(function () {
 
@@ -36,16 +40,28 @@ function BuddayWishesMainPage() {
     }, 1000);
   });
 
-  const text = visible ? (<div className="countdown-div">
-    <h1 className="countdown-text">Countdown to {name}'s budday</h1>
-    <h1 className="countdown-timer" id="countdown-timer">Wait for it</h1>
-  </div>) : (<div className="wish-div">
-    <h1 className="wish-text">Happy budday {name}!</h1>
-    <h3>You are older, but also wiser.</h3>
-  </div>)
+  const text = visible ? (
+    <div className="countdown-div" >
+      <h1 className="countdown-text" > Countdown to {name}'s budday</h1>
+      <h1 className="countdown-timer" id="countdown-timer" > Wait for it </h1>
+      <h3>#CSKColours</h3>
+    </div>) :
+    (<div className="wish-div">
+      <Confetti
+        width={width}
+        height={height}
+      />
+      <h1 className="wish-text"> Happy budday {name}!</h1>
+      <div className='image-div'>
+        <img className='image-element' alt="birthday girl ugly" src={image} />
+      </div>
+      <h1>IT IS YOUR BIRTHDAY!!</h1>
+      <h3>And, you haven't aged at all, congratulations!</h3>
+      <h3>#forever21</h3>
+    </div>)
 
   return (
-    <div className="main-container">
+    <div className="main-container" >
       {text}
     </div>
   );
