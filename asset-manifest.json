@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/budday-wishes/static/css/main.3c594699.css",
-    "main.js": "/budday-wishes/static/js/main.f10c7b6b.js",
+    "main.css": "/budday-wishes/static/css/main.9096f6d1.css",
+    "main.js": "/budday-wishes/static/js/main.8d05dad1.js",
     "static/js/787.75352b4f.chunk.js": "/budday-wishes/static/js/787.75352b4f.chunk.js",
-    "static/media/image-meenakshi.jpeg": "/budday-wishes/static/media/image-meenakshi.be7747128fb4c456f48f.jpeg",
     "index.html": "/budday-wishes/index.html",
-    "main.3c594699.css.map": "/budday-wishes/static/css/main.3c594699.css.map",
-    "main.f10c7b6b.js.map": "/budday-wishes/static/js/main.f10c7b6b.js.map",
+    "main.9096f6d1.css.map": "/budday-wishes/static/css/main.9096f6d1.css.map",
+    "main.8d05dad1.js.map": "/budday-wishes/static/js/main.8d05dad1.js.map",
     "787.75352b4f.chunk.js.map": "/budday-wishes/static/js/787.75352b4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c594699.css",
-    "static/js/main.f10c7b6b.js"
+    "static/css/main.9096f6d1.css",
+    "static/js/main.8d05dad1.js"
   ]
 }
