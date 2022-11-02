@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/budday-wishes/static/css/main.9096f6d1.css",
-    "main.js": "/budday-wishes/static/js/main.8d05dad1.js",
+    "main.css": "/budday-wishes/static/css/main.957def4f.css",
+    "main.js": "/budday-wishes/static/js/main.5480cffb.js",
     "static/js/787.75352b4f.chunk.js": "/budday-wishes/static/js/787.75352b4f.chunk.js",
     "index.html": "/budday-wishes/index.html",
-    "main.9096f6d1.css.map": "/budday-wishes/static/css/main.9096f6d1.css.map",
-    "main.8d05dad1.js.map": "/budday-wishes/static/js/main.8d05dad1.js.map",
+    "main.957def4f.css.map": "/budday-wishes/static/css/main.957def4f.css.map",
+    "main.5480cffb.js.map": "/budday-wishes/static/js/main.5480cffb.js.map",
     "787.75352b4f.chunk.js.map": "/budday-wishes/static/js/787.75352b4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9096f6d1.css",
-    "static/js/main.8d05dad1.js"
+    "static/css/main.957def4f.css",
+    "static/js/main.5480cffb.js"
   ]
 }
