@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/budday-wishes/static/css/main.957def4f.css",
-    "main.js": "/budday-wishes/static/js/main.5480cffb.js",
+    "main.css": "/budday-wishes/static/css/main.a88ceb50.css",
+    "main.js": "/budday-wishes/static/js/main.2d93b017.js",
     "static/js/787.75352b4f.chunk.js": "/budday-wishes/static/js/787.75352b4f.chunk.js",
+    "static/media/sky-picture.jpeg": "/budday-wishes/static/media/sky-picture.943a075364bd476db7fc.jpeg",
     "index.html": "/budday-wishes/index.html",
-    "main.957def4f.css.map": "/budday-wishes/static/css/main.957def4f.css.map",
-    "main.5480cffb.js.map": "/budday-wishes/static/js/main.5480cffb.js.map",
+    "main.a88ceb50.css.map": "/budday-wishes/static/css/main.a88ceb50.css.map",
+    "main.2d93b017.js.map": "/budday-wishes/static/js/main.2d93b017.js.map",
     "787.75352b4f.chunk.js.map": "/budday-wishes/static/js/787.75352b4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.957def4f.css",
-    "static/js/main.5480cffb.js"
+    "static/css/main.a88ceb50.css",
+    "static/js/main.2d93b017.js"
   ]
 }
